@@ -1,0 +1,21 @@
+{
+  "name": "rchaname/framework",
+  "description": "Mini framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ruben Chaname",
+      "email": "rdchaname@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/http-foundation": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scylla\\": ""
+    }
+  }
+}
